@@ -1,0 +1,123 @@
+/* 1. Box Model */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    } /* Box model reset for better results of box-sizing */
+  
+/* 2. After CSS Reset Fix / Base */
+
+/* 2.1 Body */
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: #fdfcf7;
+    color: #1f1f1f;
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: block;
+}
+
+header {
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.website-text {
+    display: block;
+    text-align: center;
+    margin: 25px auto 20px auto;
+    width: 60%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.menu-item-1 {
+    margin: 20px;
+}
+
+.presentation {
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.skills-list {
+    align-self: baseline;
+    width: 250px;
+    margin: 0 40px 0 40px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    display: block;
+    width: 500px;
+    margin: 0 40px 40px 40px;
+}
+
+.clients {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+.contact-container {
+    text-align: center;
+}

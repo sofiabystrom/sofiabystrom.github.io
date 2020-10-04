@@ -1,13 +1,95 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/tso5bei.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>Portfolio - Sofia Byström</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
-        <p>Here I am.</p>
+    <main>
+        <header>
+            <div class="top">
+            <p>Sofia Byström</p>
+                <nav>
+                <a href="#work" class="menu-item-1">Work</a>
+                <a href="#contact" class="menu-item-2">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="presentation">
+            <h1 class="website-text">Hello! My name is Sofia. I'm an aspiring <span class="worktitle">web designer</span> with a <span class="worktitle">photographer</span> background. I want to create nice things usable by all people.</h1>
+        </div>
+        <section>
+            <h2 class="website-text">Skills</h2>
+            <div class="skills">
+                    <ul class="skills-list">
+                        <h3>Web</h3>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>ASP.net</li>
+                        <li>Applications</li>
+                        <li>UX</li>
+                    </ul>
+
+                    <ul class="skills-list">
+                        <h3>Other</h3>
+                            <li>Photography</li>
+                            <li>Content production</li>
+                            <li>Inclusive communication</li>
+                            <li>Graphic design</li>
+                    </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="website-text">Work</h2>
+                <div id="work" class="project">
+
+                    <article class="project-item">
+                        <img src="images/box.png" class="project-image">
+                            <h3>Javascript</h3>
+                                <p>Develop a web page from an assigned mock up.</p>
+                    </article>
+
+                    <article class="project-item">
+                        <img src="images/box.png" class="project-image">
+                            <h3>UX Design</h3>
+                                <p>Develop a web page from an assigned mock up.</p>
+                    </article>
+
+                    <article class="project-item">
+                        <img src="images/box.png" class="project-image">
+                            <h3>Graphic Design</h3>
+                                <p>Develop a web page from an assigned mock up.</p>
+                    </article>
+
+                    <article class="project-item">
+                        <img src="images/box.png" class="project-image">
+                            <h3>Graphic Design</h3>
+                                <p>Develop a web page from an assigned mock up.</p>
+                    </article>
+                </div>
+        </section>
+
+        <div class="clients">
+            <h2 class="website-text">Former clients</h2>
+                <p>Conctracted photographer at Scandinav/Johnér bildbyrå, Försäkringskassan, Skatteverket, Skolinspektionen, Österåker kommun etc. via Scandinav bildbyrå, SAS, Vintagefabriken, Elle Decoration, WWF, Novellix.</p>
+        </div>
+        <footer>
+            <div id="contact" class="contact-container">
+                <h2 class="website-text">Contact</h2>
+                <a href="*">info@sofiabystrom.se</a>
+                <p>Based in Mölnlycke, Sweden</p>
+            </div>
+            <p class="website-text">© Sofia Byström 2020</p>
+        </footer>
+    </main>
 </body>
 </html>
