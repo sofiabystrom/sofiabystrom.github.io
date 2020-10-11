@@ -116,8 +116,17 @@ header {
 
 .project-item {
     display: block;
-    width: 500px;
+    width: 600px;
     margin: 0 40px 40px 40px;
+}
+
+.project-image {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.project-image:hover {
+    opacity: 0.6;
 }
 
 .clients {
