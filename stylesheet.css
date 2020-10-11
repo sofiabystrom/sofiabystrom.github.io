@@ -146,11 +146,14 @@ header {
     }
 
     .project {
-        width: 100%;
-        margin: 0 auto;
+        text-align: center;
     }
 
     .clients {
         width: 90%;
+    }
+
+    .presentation {
+        margin: 40px auto;
     }
   }
