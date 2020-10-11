@@ -130,9 +130,12 @@ header {
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1125px) {
     /* For mobile phones: */
     
+  body {
+    background-image: url("images/dots-mobile.png");
+  }
   header {
       width: 100%;
       margin: 0 auto;
