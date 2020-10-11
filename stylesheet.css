@@ -129,3 +129,25 @@ header {
 .contact-container {
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+  header {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .website-text {
+        width: 90%;
+    }
+
+    .project {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .clients {
+        width: 90%;
+    }
+  }
