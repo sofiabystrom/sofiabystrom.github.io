@@ -492,6 +492,16 @@ main {
     width: 60%;
     height: 60%;
     }
+
+    .cv_work, .cv_school {
+        display: inline-block;
+        width: 60%;
+        text-align: left; 
+    }
+    
+    th, td {
+        padding: 0;
+    }
 }
 
 /* 5.3 Responsive, Mobile/Small devices */
