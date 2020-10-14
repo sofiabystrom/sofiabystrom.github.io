@@ -502,6 +502,7 @@ main {
     display: flex; /* Makes the list elements flex items and aligned horizontal */
     height: 100%;
     margin-top: 0.5em;
+    font-size: 0.8em;
     }
 
 .column_landing {
