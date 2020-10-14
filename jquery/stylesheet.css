@@ -443,14 +443,7 @@ body {
 
 .wrapper {
     width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto; 
-    grid-template-areas: 
-    "header"
-    "slogan"
-    "main"
-    "footer"; /* All of the elements will take up full width (100%) */
+    margin: 0 auto;
     }
 
 header {
@@ -504,18 +497,6 @@ main {
 /* 5.3 Responsive, Mobile/Small devices */
 
 @media only screen and (max-width: 600px) {
-
-.wrapper {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto; 
-    grid-template-areas: 
-    "header"
-    "slogan"
-    "main"
-    "footer"; /* All of the elements will take up full width (100%) */
-    }
 
 .menu {
     display: flex; /* Makes the list elements flex items and aligned horizontal */
