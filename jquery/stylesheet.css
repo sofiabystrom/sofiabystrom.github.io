@@ -439,6 +439,7 @@ header {
 
 body {
     font-size: 1.2em;
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -447,7 +448,6 @@ body {
     }
 
 header {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -499,7 +499,6 @@ main {
 @media only screen and (max-width: 600px) {
 
 .menu {
-    display: flex; /* Makes the list elements flex items and aligned horizontal */
     height: 100%;
     margin-top: 0.5em;
     font-size: 0.7em;
