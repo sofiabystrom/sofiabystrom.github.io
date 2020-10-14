@@ -497,6 +497,7 @@ main {
         display: inline-block;
         width: 60%;
         text-align: left; 
+        margin: 0 auto;
     }
     
     th, td {
