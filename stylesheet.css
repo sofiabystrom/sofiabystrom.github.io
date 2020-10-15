@@ -137,7 +137,8 @@ header {
 
 .contact-container {
     text-align: center;
-    margin: 100px auto;
+    margin: 150px auto;
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1125px) {
