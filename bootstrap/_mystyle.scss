@@ -1,0 +1,62 @@
+// variabler
+$bgColor: #fff;
+$bgColorAlt:#d4d4d4;
+$primaryColor: #161616;
+$primaryFont: 'sofia-pro', sans-serif;
+
+// mixins
+
+@mixin myButton($width, $height, $background, $style) {
+    width: $width;
+    height: $height;
+    background: $background;
+    border-style: $style;
+
+    &:hover {
+      background:darken($background, 10%);
+    }
+    &:active {
+        background:darken($background, 10%);
+    }
+  }
+
+// base
+
+body {
+    background: $bgColor;
+    color: $primaryColor;
+    font-family: $primaryFont;
+}
+
+a {
+    color: $primaryColor;
+    &:hover {
+        color: $primaryColor;
+        font-weight: bold;
+    }
+
+    &:active {
+        color: $primaryColor;
+        font-weight: bold;
+    }
+}
+
+// buttons
+
+.btn {
+    @include myButton(200px, 50px, rgb(123, 175, 139), none);
+}
+
+// dropdown
+.dropdown-item:hover {
+    background: $bgColorAlt;
+}
+
+// show submenu when hover
+.navbar-nav li:hover
+    {
+       > ul.dropdown-menu
+       {
+           display: block;
+       }
+    }

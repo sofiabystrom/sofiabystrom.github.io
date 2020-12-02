@@ -1,0 +1,31 @@
+body {
+  background: #fff;
+  color: #161616;
+  font-family: "sofia-pro", sans-serif; }
+
+a {
+  color: #161616; }
+  a:hover {
+    color: #161616;
+    font-weight: bold; }
+  a:active {
+    color: #161616;
+    font-weight: bold; }
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background: #7baf8b;
+  border-style: none; }
+  .btn:hover {
+    background: #5d9a70; }
+  .btn:active {
+    background: #5d9a70; }
+
+.dropdown-item:hover {
+  background: #d4d4d4; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block; }
+
+/*# sourceMappingURL=_mystyle.css.map */
