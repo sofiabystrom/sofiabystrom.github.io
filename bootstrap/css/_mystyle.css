@@ -1,7 +1,7 @@
 body {
-  background: #fff;
-  color: #161616;
-  font-family: "sofia-pro", sans-serif; }
+  background: #fff !important; 
+  color: #161616 !important;
+  font-family: "sofia-pro", sans-serif !important; }
 
 a {
   color: #161616; }
