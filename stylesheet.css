@@ -109,11 +109,6 @@ header {
     transition: .3s ease-in-out;
 }
 
-.project-image:hover {
-    opacity: 0.7;
-}
-
-
 .contact-container {
     text-align: center;
     margin: 100px auto;
